@@ -1,0 +1,7 @@
+data/*.jsonl filter=lfs diff=lfs merge=lfs -text
+data/corpus_with_ids.jsonl filter=lfs diff=lfs merge=lfs -text
+data/*.txt filter=lfs diff=lfs merge=lfs -text
+data/inverted_index.txt filter=lfs diff=lfs merge=lfs -text
+data/tokens.jsonl filter=lfs diff=lfs merge=lfs -text
+data/stems.jsonl filter=lfs diff=lfs merge=lfs -text
+*.zip filter=lfs diff=lfs merge=lfs -text
